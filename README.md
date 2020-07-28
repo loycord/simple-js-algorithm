@@ -2,3 +2,4 @@
 
 - UnionFind
 - LinkedStack
+- LinkedQueue
