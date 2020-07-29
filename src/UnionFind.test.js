@@ -8,4 +8,4 @@ test("1 - 3 to be connected", () => {
   unionFind.union(1, 0);
 
   expect(unionFind.connected(1, 3)).toBe(true);
-})
+});

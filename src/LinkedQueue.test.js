@@ -7,7 +7,7 @@ test("first item to be 1", () => {
   queue.enqueue(3);
 
   expect(queue.first.item).toBe(1);
-})
+});
 
 test("last item to be 3", () => {
   const queue = new LinkedQueue();
@@ -17,8 +17,7 @@ test("last item to be 3", () => {
   queue.dequeue();
 
   expect(queue.last.item).toBe(3);
-})
-
+});
 
 test("queue items to equal [1, 2, 3]", () => {
   const queue = new LinkedQueue();
@@ -27,4 +26,4 @@ test("queue items to equal [1, 2, 3]", () => {
   queue.enqueue(3);
 
   expect(queue.toArray()).toEqual([1, 2, 3]);
-})
+});

@@ -35,6 +35,6 @@ LinkedQueue.prototype.toArray = function () {
   }
 
   return result;
-}
+};
 
 module.exports = LinkedQueue;
