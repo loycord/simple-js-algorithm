@@ -6,7 +6,8 @@
 - gcd
 - shuffle
 - selectionSort
-- insertionSort
+- insertionSort (stable)
 - shellSort
-- mergeSort
+- mergeSort (stable)
 - bottomUpMergeSort
+- quickSort

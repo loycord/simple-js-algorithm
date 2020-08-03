@@ -2,11 +2,11 @@ function bottomUpMergeSort(a) {
   const N = a.length;
   const aux = new Array(N);
 
-  function less(v, w) {
+  const less = (v, w) => {
     return v < w;
-  }
+  };
 
-  function merge(a, lo, mid, hi) {
+  const merge = (a, lo, mid, hi) => {
     // copy
     for (let k = lo; k <= hi; k++) {
       aux[k] = a[k];
@@ -26,7 +26,7 @@ function bottomUpMergeSort(a) {
         a[k] = aux[i++];
       }
     }
-  }
+  };
 
   for (let sz = 1; sz < N; sz = sz + sz) {
     for (let lo = 0; lo < N - sz; lo += sz + sz) {
