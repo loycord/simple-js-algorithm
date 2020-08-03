@@ -7,3 +7,6 @@
 - shuffle
 - selectionSort
 - insertionSort
+- shellSort
+- mergeSort
+- bottomUpMergeSort
