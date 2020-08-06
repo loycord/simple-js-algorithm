@@ -14,6 +14,7 @@
 - threeWayQuickSort
 - UnorderedMaxPQ
 - MaxPQ
+- heapSort
 
 <!-- |             | inplace | stable | worst   | average  | best    | remarks                                             |
 | ----------- | ------- | ------ | ------- | -------- | ------- | --------------------------------------------------- |

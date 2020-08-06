@@ -1,3 +1,4 @@
+// Priority Queue
 function MaxPQ() {
   this.pq = [0];
   this.N = 0;
@@ -23,7 +24,7 @@ MaxPQ.prototype.delMax = function () {
 MaxPQ.prototype.swim = function (k) {
   while (k > 1 && this.less(parseInt(k / 2), k)) {
     this.exch(k, parseInt(k / 2));
-    k = k / 2;
+    k = parseInt(k / 2);
   }
 };
 
