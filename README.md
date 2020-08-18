@@ -15,6 +15,7 @@
 - UnorderedMaxPQ
 - MaxPQ
 - heapSort
+- BST
 
 <!-- |             | inplace | stable | worst   | average  | best    | remarks                                             |
 | ----------- | ------- | ------ | ------- | -------- | ------- | --------------------------------------------------- |
