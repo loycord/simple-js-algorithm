@@ -30,7 +30,7 @@ BST.prototype.size = function () {
 };
 
 BST.prototype.sizeNode = function (x) {
-  if (x === null) return 0;
+  if (!x) return 0;
   return x.count;
 };
 
