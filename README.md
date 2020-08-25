@@ -16,6 +16,7 @@
 - MaxPQ
 - heapSort
 - BST
+- RedBlackBST
 
 <!-- |             | inplace | stable | worst   | average  | best    | remarks                                             |
 | ----------- | ------- | ------ | ------- | -------- | ------- | --------------------------------------------------- |
